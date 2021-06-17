@@ -1,0 +1,38 @@
+/* carousel */
+.carousel-img {
+  height: 100vh;
+}
+.carousel-text {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: left;
+  padding: 10%;
+}
+.carousel-text--black-box {
+  background: linear-gradient(transparent 50%, black 50%);
+  text-shadow: lightgray 1px 2px 2px;
+}
+
+.carousel-text--title {
+  font-size: 4rem !important;
+}
+
+.card-margin {
+  margin-top: 30px !important;
+  width: 100% !important;
+}
+
+@media screen and (max-width: 400px) {
+  .carousel-img {
+    height: 210px;
+  }
+
+  .carousel-text--title {
+    font-size: 1.4rem !important;
+  }
+
+  .card-margin {
+    margin-top: 10px !important;
+  }
+}

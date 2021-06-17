@@ -1,0 +1,39 @@
+.vertical-webzine--img,
+.vertical-webzine--text,
+.vertical-webzine {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1.2rem;
+}
+
+.vertical-webzine--text {
+  display: block;
+  flex: 5;
+}
+
+.vertical-webzine--img {
+  flex: 3;
+}
+
+.vertical-webzine--title {
+  width: 100%;
+  font-size: 1.4rem;
+  color: rgb(245, 0, 87);
+  font-weight: bold;
+}
+
+.vertical-webzine--subtitle {
+  width: 100%;
+  font-weight: bold;
+  padding-top: 3px;
+}
+
+.vertical-webzine--summary {
+  width: 100%;
+  font-size: 1rem;
+  padding-top: 15px;
+}

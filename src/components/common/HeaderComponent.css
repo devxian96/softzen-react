@@ -1,0 +1,4 @@
+.MuiAppBar-colorPrimary {
+  background: linear-gradient(#1e1f21, transparent);
+  background-color: transparent !important;
+}

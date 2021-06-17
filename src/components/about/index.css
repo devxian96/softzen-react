@@ -1,0 +1,11 @@
+.rounded {
+  border-radius: 30px;
+}
+
+.paper {
+  padding: 6px 16px;
+}
+
+.paper-mobile {
+  padding: 0;
+}
